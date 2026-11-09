@@ -1,0 +1,25 @@
+# Linux Kernel Source & Build Files (수십만 개 소스 제외)
+kernel/
+
+# Build outputs & Temporary ISO
+build/
+*.iso
+*.cpio.gz
+*.bin
+bzImage
+
+# Generated Raw Splash Image
+rootfs/etc/splash.raw
+
+# Compiled C Binaries & Objects
+src/shell/main
+*.o
+
+# Editor / OS junk
+.vscode/
+.DS_Store
+
+# Downloads
+downloads/
+
+run.sh
